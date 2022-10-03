@@ -1,0 +1,244 @@
+@font-face {
+    font-family: "markersd";
+    src: url("fonts/markersd.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: "markersd";
+    text-align: center;
+    color: #383839;
+    border: 6px solid #394494d0;
+    border-radius: 10%;
+    display: block;
+    padding: 10px 20px 8px 14x;
+    transform: rotate(-3deg);
+    font-size: 60px;
+    margin: 40px auto;
+    font-weight: 600;
+    width: 30%;
+}
+
+h2 {
+    font-family: "markersd";
+    text-align: center;
+    color: #383839;
+    border: 4px solid #f55656;
+    border-radius: 60%;
+    display: block;
+    padding: 6px 10px 8px 3px;
+    transform: rotate(6deg);
+    font-size: 40px;
+    margin: 20px auto;
+
+    font-weight: 600;
+    width: 20%;
+}
+
+h3 {
+    font-family: "markersd";
+    text-align: center;
+    color: #383839;
+    border: 4px solid #f55656;
+    border-radius: 60%;
+    display: block;
+    padding: 3px 5px 0px 8px;
+    transform: rotate(3deg);
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+
+}
+
+h4 {
+    font-family: "markersd";
+    text-align: center;
+    color: #383839;
+    border: 2px solid #1cb981;
+    border-radius: 60%;
+    display: inline-block;
+    padding: 10px 3px 0px 8px;
+    transform: rotate(-3deg);
+    font-size: 25px;
+    margin-top: 5px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-weight: 600;
+    width: 80%;
+}
+
+p {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 70%;
+    
+}
+
+hr {
+    border:#394494 4px solid;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hr2 {
+    border: #383839 4px solid;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pic-bio>img {
+    border: 20px #fff solid;
+    transform: rotate(-5deg);
+    border-radius: 5px 10px 8px 12px;
+    width: 70%;
+
+}
+
+.pic-bio2 {
+    width: 70%;
+    font-size: 20px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 25px;
+    row-gap: 50px;
+   margin: 25px auto 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.content-item {
+   
+    width: 100%;
+    margin: 10px auto;
+  border: 3px solid #afb7be61;
+  border-radius: 3px 6px 8px 10px;
+}
+
+.content-item img {
+    max-width: 100%;
+
+}
+
+.content-item-body {
+    padding: 10px;
+    
+}
+
+.content-item-body h4 {
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: rgb(248, 248, 248);
+}
+
+#button-style {
+    display: block;
+    font-family: "markersd";
+    text-align: center;
+    color: #383839;
+    border: 2px solid #afb7be61;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-weight: 600;
+    width: 130px;
+   cursor: pointer;
+   padding: 10px;
+   
+}
+ 
+#button-style:hover {
+background-color: #383839a2;
+}
+
+
+.articles {
+    padding: 20px;
+    border: #f55656 solid 3px;
+    margin: 10px 0;
+    border-radius: 24px 38px;
+}
+
+a {
+    cursor: pointer;
+    font-family: "markersd";
+    color: #394494;
+    border: 2px solid #383839;
+    border-radius: 8%;
+    display: inline-block;
+    padding: 10px 3px 0px 8px;
+    font-size: 25px;
+    margin-top: 5px;
+   text-decoration: none;
+    font-weight: 600;
+    width: auto;
+    margin: 10px 0;
+}
+
+a:hover {
+    background-color: #fdff32;
+}
+
+#scientist {
+    margin: 80px auto;
+    font-family: "markersd";
+    font-size: 25px;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+}
+
+#sciName{
+    font-family: "markersd";
+    font-size: 25px;
+    border: #394494 solid 3px;
+    border-radius: 10%;
+}
+
+#button-style-form {
+    font-family: "markersd";
+    text-align: center;
+    color: #383839;
+    border: 2px solid #afb7be61;
+    font-size: 25px;
+    font-weight: 600;
+    width: 50px;
+   cursor: pointer;
+   padding: 10px;
+}
+
+#button-style-form:hover {
+    background-color: #383839a2;
+    }
+
+form {
+    display: inline-block
+}

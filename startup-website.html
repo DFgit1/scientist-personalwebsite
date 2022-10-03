@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientist Personal Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Lloyd Melville</h1>
+            <div class="flex">
+                <div class="pic-bio">
+                    <img src="images/avatar-3078.jpg" alt="image of person who does not exist">
+                </div>
+                <div class="pic-bio2">
+                    <h3>About Me</h3>
+                    <p>I am a astrophysicist from Calgary, Alberta. On a daily basis, My team and I employ the methods
+                        and principles of physics and chemistry in the study of astronomical objects and phenomena. Who
+                        knows what new and exciting things we will discover!</p>
+
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container">
+        <hr>
+        <h2>Upcoming Events</h2>
+
+        <div class="grid">
+            <div class="content-item">
+                <img src="images/IAS.png" alt="IAS">
+                <div class="content-item-body">
+                    <h4>University of Pennsylvania Physics & Astronomy Colloquium</h4>
+                    <p>We will discuss the latest efforts in our laboratory to develop highly sensitive methods of
+                        microscopy, to go directly inside living cells and uncover the behavior of single biomolecules
+                        as they effect their function in transcription.</p>
+                        <a href="https://www.ias.edu/sns/events/university-pennsylvania-physics-astronomy-colloquium-8" target="_blank">Learn More</a>
+                </div>
+            </div>
+
+            <div class="content-item">
+                <img src="images/IAS.png" alt="IAS">
+                <div class="content-item-body">
+                    <h4>Princeton University Galread [Galactic/Extragalactic <br> Reading Group]</h4>
+                    <p>Each week, we hold a relatively informal seminar/discussion series with an emphasis on
+                        extra-galactic and large-scale structure astrophysics.</p><br>
+                        <a href="https://www.ias.edu/sns/events/princeton-university-galread-galacticextragalactic-reading-group-49" target="_blank">Learn More</a>
+                </div>
+            </div>
+
+            <div class="content-item">
+                <img src="images/IAS.png" alt="IAS">
+                <div class="content-item-body">
+                    <h4>Princeton University Extrasolar Planet Discussion Group</h4>
+                    <p>Convergent disk migration has long been suspected to be responsible for forming planetary systems
+                        with a chain of mean-motion resonances (MMR). Dynamical evolution over time could disrupt the
+                        delicate resonant configuration.
+                    </p>
+                    <a href="https://www.ias.edu/sns/events/princeton-university-extrasolar-planet-discussion-group-62" target="_blank">Learn More</a>
+                </div>
+            
+            </div>
+        
+
+        </div>
+        <button id="button-style" onclick="style_me()">Style Me</button>
+    </div>
+    <div class="container">
+        <hr class="hr2">
+        <h2>Articles</h2>
+        <div class="articles">
+            <a href="https://www.sciencedaily.com/releases/2022/09/220929132325.htm" target="_blank">Milky Way's
+                graveyard of dead stars found</a>
+            <p>The first map of the 'galactic underworld' -- a chart of the corpses of once massive suns that have since
+                collapsed into black holes and neutron stars -- has revealed a graveyard that stretches three times the
+                height of the Milky Way, and that almost a third of the objects have been flung out from the galaxy
+                altogether.</p>
+        </div>
+        <div class="articles">
+            <a href="https://www.sciencedaily.com/releases/2022/09/220929133505.htm" target="_blank">Potential first
+                traces of the universe's earliest stars</a>
+            <p>Astronomers may have discovered the ancient chemical remains of the first stars to light up the Universe.
+                Using an innovative analysis of a distant quasar observed by the 8.1-meter Gemini North telescope on
+                Hawai'i, the scientists found an unusual ratio of elements that, they argue, could only come from the
+                debris produced by the all-consuming explosion of a 300-solar-mass first-generation star.</p>
+        </div>
+        <div class="articles">
+            <a href="https://www.sciencedaily.com/releases/2022/09/220930133712.htm" target="_blank">Webb, Hubble
+                capture detailed views of DART impact</a>
+            <p>Two of NASA's Great Observatories, the James Webb Space Telescope and the Hubble Space Telescope, have
+                captured views of a unique NASA experiment designed to intentionally smash a spacecraft into a small
+                asteroid in the world's first-ever in-space test for planetary defense. These observations of NASA's
+                Double Asteroid Redirection Test (DART) impact mark the first time that Webb and Hubble simultaneously
+                observed the same celestial target.</p>
+        </div>
+
+        <div class="container">
+            <div id="scientist">
+                <form>
+                <label for="">Who is your favourite scientist?</label>
+                <input type="text" id="sciName">
+            </form>
+                <button id="button-style-form" onclick="scientist_name()">+</button>
+
+
+                <p id="text-box"></p>
+
+            </div>
+        </div>
+</body>
+
+</html>
